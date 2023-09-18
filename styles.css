@@ -146,10 +146,10 @@ h2 {
     padding-left: 100px;
     /* padding-bottom: 5%; */
     
-    animation-name: dripta;
+/*     animation-name: dripta;
     animation-duration: 8.5s;
     animation-iteration-count: infinite;
-    animation-timing-function:ease-in-out;
+    animation-timing-function:ease-in-out; */
 }
 /* @keyframes dripta {
     from{
