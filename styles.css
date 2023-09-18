@@ -75,6 +75,21 @@ nav a {
 #example{
     text-decoration:none;
     color: #ff6600;
+    animation-name: dripta1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes dripta1 {
+    from{
+        color: #ff6600;
+    }
+    /* to{
+        color: #f8c600;
+    } */
+    to{
+        color: #e42301;
+    }
 }
 #example1{
     text-decoration:dotted;
@@ -143,7 +158,7 @@ h2 {
     height: 80%;
     margin: 5px;
     padding-right: 100px;
-    padding-left: 100px;
+    padding-left: 42px;
     /* padding-bottom: 5%; */
     display: flex;
     flex-direction: column;
