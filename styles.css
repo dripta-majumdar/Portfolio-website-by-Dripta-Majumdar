@@ -151,7 +151,7 @@ h2 {
     animation-iteration-count: infinite;
     animation-timing-function:ease-in-out;
 }
-@keyframes dripta {
+/* @keyframes dripta {
     from{
         width: 80%;
         height: 80%;
@@ -160,7 +160,7 @@ h2 {
         width: 100%;
         height: 100%;
     }
-}
+} */
 
 /* Add more styles for your portfolio items, about section, and contact section as needed */
 
