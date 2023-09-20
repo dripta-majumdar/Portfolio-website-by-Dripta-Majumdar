@@ -7,7 +7,7 @@
     background-color: #ff2600;
     height: 3px;
     width: 0vw;
-    animation: load 0.4s ease-in-out  1;
+    animation: load 0.5s ease-in-out  1;
 } 
 @keyframes load {
     0%{
@@ -18,7 +18,7 @@
         width:60vw;
         background-color: #ff6600;
     }
-    80%{
+    81%{
         width: 100vw;
         background-color: #1eee2f;
     }
