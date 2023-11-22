@@ -9,6 +9,59 @@
     width: 0vw;
     animation: load 1.2s ease-in-out  1;
 } 
+/* #notef{
+  width: 150%;
+} */
+.notify {
+  position: absolute;
+  top: 0;
+  right: 0%; /* Initially position it outside the viewport on the right */
+  white-space: nowrap; /* Prevent text from wrapping */
+  background-color: black;
+  color: rgb(255, 94, 0);
+  animation: note 11s linear infinite; /* Adjust the duration and timing function as needed */
+}
+@keyframes note {
+  0% {
+    right: 0%;
+  }
+  10%{
+    right: 5%;
+  }
+  27%{
+    right: 9%;
+  }
+  40%{
+    right: 12%;
+  }
+  53%{
+    right: 20%;
+  }
+  55%{
+    right: 30%;
+  }
+  60%{
+    right: 45%;
+  }
+  70%{
+    right: 52%;
+  }
+  80%{
+    right: 69%;
+  }
+  82%{
+    right:75% ;
+  }
+  85%{
+    right: 82%;
+  }
+  90%{
+    right: 92%;
+  }
+  100% {
+    right: 100%; /* Move it back to the right edge of the viewport */
+  }
+}
 @keyframes load {
     0%{
         width: 0vw;
